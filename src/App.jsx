@@ -87,14 +87,14 @@ const App = () => {
   setTimeout(() => {
     navigate('/epilepsi')
   }, 10000);
-  
+
 
 
   return (
     <>
     {(text1) ?
       <div className="container mx-auto mt-[30vh]">
-        <h1 className='text-8xl' data-aos="zoom-in" data-aos-duration="2000">Hi N Is</h1>
+        <h1 className='text-8xl' data-aos="zoom-in" data-aos-duration="2000">Hi Nurul Ismawati</h1>
         {(aosLike) ? 
         <h6 {...console.log(like)} style={{display: like}} data-aos="fade" data-aos-duration="2000" className='mt-5'>i really like your name btw {(hehe)? ":3" : "" }</h6>
         : <></>}
