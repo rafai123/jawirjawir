@@ -12,7 +12,7 @@ const Epilepsi = () => {
     }
     
     return (
-        <div style={{backgroundColor: color}} className="mx-auto w-screen h-screen flex justify-center items-center bg-red-300">
+        <div style={{backgroundColor: color}} className="mx-auto w-screen h-screen flex justify-center items-center flex-col bg-red-300">
             <p className="text-5xl font-bold animate-spin">Selamat <span className="line-through animate-bounce"> Ultah</span> Epilepsi </p>
             <br />
                 <img src={ultah} width={250} className="animate-spin" />
