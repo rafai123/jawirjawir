@@ -91,7 +91,7 @@ const App = () => {
 
 
   return (
-    <>
+    <div className="text-center">
     {(text1) ?
       <div className="container mx-auto mt-[30vh]">
         <h1 className='text-8xl' data-aos="zoom-in" data-aos-duration="2000">Hi Nurul Ismawati</h1>
@@ -124,7 +124,7 @@ const App = () => {
       <img src={ultah} width={300} data-aos="fade-left" data-aos-duration="2000" className='mt-5 mx-auto'/>
     </div> 
       : <></>}
-    </>
+    </div>
   )
 }
 
